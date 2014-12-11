@@ -7,7 +7,10 @@
             <?php include 'modules/header.php';?>
     </head>
     <body>
-        <?php $active_page = 2; ?>
+        <?php $active_page = 2; 
+        $full = 'Full Murphy Bed';
+        $_SESSION['page'] = $full;
+        ?>?>
         <?php include 'modules/navbar_top.php';?>
         
         <div class="container" id="main_container">

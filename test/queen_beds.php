@@ -9,6 +9,7 @@
     <body>
         <?php $active_page
                 = 1;
+        $_SESSION['page'] = 'queen';
         ?>
 <?php include 'modules/navbar_top.php'; ?>
 
@@ -17,55 +18,14 @@
                 <div class="col-sm-6 col-md-6">
                     <!-- Carousel image slider -->
                     <div class="well">
-<?php include 'modules/queen_slider.php'; ?>
-                    <div class="row">
-                        
-
-                            <div id="myCarousel" class="carousel slide">
-
-                                <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-                                    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-                                </ol>
-
-                                <!-- Carousel items -->
-                                <div class="carousel-inner">
-
-                                    <div class="item">
-                                        <div class="row-fluid">
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                        </div><!--/row-fluid-->
-                                    </div><!--/item-->
-
-                                    <div class="item active">
-                                        <div class="row-fluid">
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                        </div><!--/row-fluid-->
-                                    </div><!--/item-->
-
-                                    <div class="item">
-                                        <div class="row-fluid">
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                            <div class="span3"><a href="#x" class="thumbnail"><img src="http://placehold.it/100x100" alt="Image" style="max-width:100%;"></a></div>
-                                        </div><!--/row-fluid-->
-                                    </div><!--/item-->
-
-                                </div><!--/carousel-inner-->
-
-                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-                                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-                            </div><!--/myCarousel-->
-
-                        </div> 
+                        <a href="#" data-toggle="modal" data-target="#mymodal"><img src="media/images/hutch_3.jpg" alt=""></a>
+                        <div class="row">
+                          <div class="col-sm-6 col-sm-3">
+                            <a href="#" class="thumbnail">
+                              <img src="http://placehold.it/150x150" alt="...">
+                            </a>
+                          </div>  
+                        </div>      
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6">
@@ -80,6 +40,7 @@
 <?php include 'modules/product_description.php'; ?>
         </div>
 
-<?php include 'modules/footer.php'; ?>
+<?php include 'modules/footer.php';
+include 'modules/image_modal.php';?>
     </body>
 </html>

@@ -29,6 +29,9 @@ html,body {
     height: auto !important;
     margin: 0 auto -120px;
 }
+img {
+    width: 100%;
+}
  /*
   background: -webkit-linear-gradient(#222222, #FAFAFA); /* For Safari 5.1 to 6.0 */
  /* background: -o-linear-gradient(#222222, #FAFAFA); /* For Opera 11.1 to 12.0 */
