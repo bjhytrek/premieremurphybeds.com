@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Queen Beds | Premieremurphybeds.com</title>
         <?php include 'modules/header.php'; ?>
+        <?php include 'modules/queen_dropdown.php'; ?>
     </head>
     <body>
         <?php $active_page
@@ -38,6 +39,8 @@
                 </div>
             </div>
 <?php include 'modules/product_description.php'; ?>
+            
+<h3 id="testing"></h3>
         </div>
 
 <?php include 'modules/footer.php';
