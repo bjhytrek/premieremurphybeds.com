@@ -23,7 +23,7 @@
                         '<a href="full_beds.php">Full Beds</a>',
                         '<a href="twin_beds.php">Twin Beds</a>',
                         '<a href="compare.php">Compare</a>',
-                       '<a href="#contact" data-toggle="modal">Contact</a>',
+                       '<a href="contact.php">Contact</a>',
                      );
                         
                        

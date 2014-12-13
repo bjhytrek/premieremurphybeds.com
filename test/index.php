@@ -54,6 +54,9 @@
                   </a>
                 </div>
 			<!-- Main content-->
+                        <div class="jumbotron">
+                            <p>Premier Murphy Beds manufactures the highest quality beds in the business with the best prices! We use only the best materials, and build our beds right here in the USA. Our current line features top-grade wood with beautiful options for any room in the home. Our space saving features create a beautifully furnished room that maximizes space and efficiency.*mattress not included*</p>
+                        </div>
                 <!--Queen thumbnail-->
 		<div class="row ">
                     <div class="col-sm-7 col-md-4">
