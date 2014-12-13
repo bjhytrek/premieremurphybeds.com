@@ -9,7 +9,7 @@
     <body>
         <?php $active_page = 3; ?>
         <?php include 'modules/navbar_top.php';?>
-        
+        <script type='text/javascript' src='modules/paypal_dropdown.js' defer="defer"></script>
         <div class="container" id="main_container">
             <div class="row">
                     <div class="col-sm-6 col-md-6">

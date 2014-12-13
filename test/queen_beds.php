@@ -5,13 +5,13 @@
         <meta charset="UTF-8">
         <title>Queen Beds | Premieremurphybeds.com</title>
         <?php include 'modules/header.php'; ?>
-        <?php include 'modules/queen_dropdown.php'; ?>
     </head>
     <body>
         <?php $active_page
                 = 1;
         $_SESSION['page'] = 'queen';
         ?>
+        <script type='text/javascript' src='modules/paypal_dropdown.js' defer="defer"></script>
 <?php include 'modules/navbar_top.php'; ?>
 
         <div class="container" id="main_container">

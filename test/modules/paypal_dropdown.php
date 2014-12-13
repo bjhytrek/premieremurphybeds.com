@@ -1,27 +1,36 @@
-<script type="text/javascript">
-    function setOptions(chosen) {
-        var teirs = document.myform.os1;
-
-        switch(chosen)
-        case "Standard Colors": 
-             tiers.options[tiers.options.length] = new
-                    Option('White', 'White');
+var tiers = $('#tiers');
+var tiers = $('#tiers');
+var colors = $('#colors');
+tiers.ready(function (){
+   var selectedText = $("#tiers option:selected").val();
+    $("#colors option[class='0']").show();
+            $("#colors option[class='1']").hide();
+            $("#colors option[class='2']").hide();
+}
+);
+tiers.change(function () {
+    var selectedText = $("#tiers option:selected").val();
+    $('#colors').val('empty');
+    switch (selectedText) {
+        case "Standard Colors":
+            $("#colors option[class='0']").show();
+            $("#colors option[class='1']").hide();
+            $("#colors option[class='2']").hide();
+            
             break;
         case "Tier 1 Colors":
-           
-            tiers.options[tiers.options.length] = new
-                    Option('', 'Black');
-            tiers.options[tiers.options.length] = new
-                    Option('', 'Maple');
+            $("#colors option[class='0']").hide();
+            $("#colors option[class='2']").hide();
+            $("#colors option[class='1']").show();
+   
             break;
-        }
         case "Tier 2 Colors":
-            tiers.options[tiers.options.length] = new
-                    Option('Chololate', 'Chololate');
-            tiers.options[tiers.options.length] = new
-                    Option('Mahogany', 'Mahogany');
-            tiers.options[tiers.options.length] = new
-                    Option('Medium Sycamore', 'Medium Sycamore');
+            $("#colors option[class='0']").hide();
+            $("#colors option[class='1']").hide();
+            $("#colors option[class='2']").show();
             break;
-        
+
     }
+    
+}
+);

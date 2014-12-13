@@ -1,23 +1,35 @@
-< !DOCTYPE html >
-        < !--
-        To
-change
-this license header, choose License Headers in Project Properties.
-        To
-change
-this template file, choose Tools | Templates
-        and
-open
-the template in the editor.
-        -- >
-        < html >
-        < head >
-        < meta charset = "UTF-8" >
-        < title > < /title>
-        < /head>
-        < body >
-        < ?php
-        // put your code here
-        ? >
-        < /body>
-        < /html>
+var tiers = $('#tiers');
+var colors = $('#colors');
+tiers.ready(function (){
+   var selectedText = $("#tiers option:selected").val();
+    $("#colors option[class='0']").show();
+            $("#colors option[class='1']").hide();
+            $("#colors option[class='2']").hide();
+}
+);
+tiers.change(function () {
+    var selectedText = $("#tiers option:selected").val();
+    $('#colors').val('empty');
+    switch (selectedText) {
+        case "Standard Colors":
+            $("#colors option[class='0']").show();
+            $("#colors option[class='1']").hide();
+            $("#colors option[class='2']").hide();
+            
+            break;
+        case "Tier 1 Colors":
+            $("#colors option[class='0']").hide();
+            $("#colors option[class='2']").hide();
+            $("#colors option[class='1']").show();
+   
+            break;
+        case "Tier 2 Colors":
+            $("#colors option[class='0']").hide();
+            $("#colors option[class='1']").hide();
+            $("#colors option[class='2']").show();
+            break;
+
+    }
+    
+}
+)(jQuery);

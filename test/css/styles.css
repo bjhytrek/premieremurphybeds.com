@@ -57,6 +57,9 @@ h3 {
 a:hover {
     color: #393BFD;
 }
+#thumbail {
+  max-width:250px ;  
+}
 .push,.footer_container {
     height: 120px;
     width: 100%;
