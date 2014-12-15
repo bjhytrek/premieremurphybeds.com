@@ -24,7 +24,7 @@
                 <img src="media/images/colors/white.jpg" alt="White">
                 <div class="caption">
                     <h4>White</h4>
-                    <p>...</p>
+                    
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
                 <img src="media/images/colors/black.jpg" alt="Black">
                 <div class="caption">
                     <h4>Black</h4>
-                    <p>...</p>
+                    
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 <img src="media/images/colors/maple.jpg" alt="Maple">
                 <div class="caption">
                     <h4>Maple</h4>
-                    <p>...</p>
+                    
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
                 <img src="media/images/colors/chocolate.jpg" alt="Chocolate">
                 <div class="caption">
                     <h4>Chocolate</h4>
-                    <p>...</p>
+                    
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                 <img src="media/images/colors/mahogany.jpg" alt="Mahogany">
                 <div class="caption">
                     <h4>Mahogany</h4>
-                    <p>...</p>
+                    
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                 <img src="media/images/colors/medium_sycamore.jpg" alt="Sycamore">
                 <div class="caption">
                     <h4>Medium Sycamore</h4>
-                    <p>...</p>
+                    
                 </div>
             </div>
         </div>

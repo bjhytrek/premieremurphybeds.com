@@ -13,8 +13,14 @@
         <div class="container" id="main_container">
             <div class="row">
                     <div class="col-sm-6 col-md-6">
-                <!-- Carousel image slider -->
-                <?php include 'modules/twin_slider.php'; ?>
+                    <!-- Carousel image slider -->
+                    <div class="well">
+                        <!--<a href="#" data-toggle="modal" data-target="#mymodal"> -->
+                        <img src="media/images/beds/slide_2.jpg" alt="">
+                        <!--</a>
+                        -->
+                           
+                    </div>
                 </div>
                 <div class="col-sm-6 col-md-6">
                     <div class="page-header">

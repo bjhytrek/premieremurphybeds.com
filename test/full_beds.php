@@ -20,7 +20,7 @@
                     <!-- Carousel image slider -->
                     <div class="well">
                         <!--<a href="#" data-toggle="modal" data-target="#mymodal"> -->
-                            <img src="media/images/hutch_3.jpg" alt="">
+                        <img src="media/images/beds/slide_3.jpg" alt="">
                         <!--</a>
                         -->
                            

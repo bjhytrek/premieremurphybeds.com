@@ -22,7 +22,7 @@
                         '<a href="queen_beds.php">Queen Beds</a>',
                         '<a href="full_beds.php">Full Beds</a>',
                         '<a href="twin_beds.php">Twin Beds</a>',
-                        '<a href="compare.php">Compare</a>',
+                        '<a href="hutch.php">Hutch</a>',
                        '<a href="contact.php">Contact</a>',
                      );
                         

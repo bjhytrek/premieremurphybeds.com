@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Compare | Premieremurphybeds.com</title>
-        <?php include 'modules/header.php'; ?>
-    </head>
-    <body>
-        <?php $active_page = 4; ?>
-        <?php include 'modules/navbar_top.php'; ?>
-        <div class="container" id="main_container"><h1>Compare Our Beds</h1>
-            <div class="table-responsive">          
+ <div class="table-responsive">          
                 <table class="table table-striped table-bordered">
                     <thead>
                         <tr>
@@ -47,10 +36,3 @@
                     </tbody>
                 </table>
             </div>
-        </div>
-
-
-
-        <?php include 'modules/footer.php'; ?>
-    </body>
-</html>

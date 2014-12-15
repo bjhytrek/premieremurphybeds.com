@@ -16,19 +16,19 @@
 
         <div class="container" id="main_container">
             <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <!-- Carousel image slider -->
+                
+                    
+                     <div class="col-sm-6 col-md-6">
+                    
                     <div class="well">
-                        <a href="#" data-toggle="modal" data-target="#mymodal"><img src="media/images/hutch_3.jpg" alt=""></a>
-                        <div class="row">
-                          <div class="col-sm-6 col-sm-3">
-                            <a href="#" class="thumbnail">
-                              <img src="http://placehold.it/150x150" alt="...">
-                            </a>
-                          </div>  
-                        </div>      
+                        <!--<a href="#" data-toggle="modal" data-target="#mymodal"> -->
+                        <img src="media/images/beds/slide_1.jpg" alt="">
+                        <!--</a>
+                        -->
+                           
                     </div>
                 </div>
+                
                 <div class="col-sm-6 col-md-6">
                     <div class="page-header">
                         <h1>Queen Sized Murphy Bed</h1>
