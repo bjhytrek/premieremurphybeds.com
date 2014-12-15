@@ -38,6 +38,10 @@
 
                 </div>
             </div>
+            <div class="jumbotron">
+                <h3>Queen Sized Murphy Bed</h3>
+                <p>Our queen bed features the option to include one or two hutches, with shelves. When closed the room appears to have a beautifully crafted entertainment center; when open it comfortably sleeps two adults. With many wood options to choose from the perfect design and color is available for any room.</p>
+            </div>
 <?php include 'modules/product_description.php'; ?>
             
 <h3 id="testing"></h3>
