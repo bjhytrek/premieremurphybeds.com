@@ -1,6 +1,6 @@
 <?php
 	define("DB_SERVER", "localhost");
-	define("DB_USER", "bjhytrek");
+	define("DB_USER", "bjhytrek_1");
 	define("DB_PASS", "Drpepper91");
 	define("DB_NAME", "murphy_beds");
 
