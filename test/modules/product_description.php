@@ -3,9 +3,9 @@
     <div class="row">
          <h2>Product description</h2> 
        <h3>Hardware Finishes:</h3> 
-       <div class="col-sm-6 col-md-4">
+       <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4">
            <div class="thumbnail">
-               <img src="media/images/hardware/hardware_finishes.jpg" alt="">
+               <img src="media/images/hardware/hardware_finishes.jpg" alt="Hardware Finishes: Chrome, Brushed Nickel, and Oil Rubbed Bronze.">
                <div class="caption">
                  <p>We offer three different finishes on our hardware. These are high quality materials all assembled in the USA.</p>  
                </div>
@@ -19,7 +19,7 @@
     
     <div class="row">
         <h3>Standard Colors:</h3>
-        <div class="col-sm-3 col-lg-3">
+        <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">
                 <img src="media/images/colors/white.jpg" alt="White">
                 <div class="caption">
@@ -30,9 +30,9 @@
         </div>
         
     </div>
-    <h3>Tier 1 Colors:</h3>
+    <h3>Premium Colors:</h3>
     <div class="row">
-        <div class="col-sm-3 col-lg-3">
+        <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">
                 <img src="media/images/colors/black.jpg" alt="Black">
                 <div class="caption">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 col-lg-3">
+        <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">
                 <img src="media/images/colors/maple.jpg" alt="Maple">
                 <div class="caption">
@@ -51,9 +51,9 @@
             </div>
         </div>
     </div>
-    <h3>Tier 2 Colors:</h3>
+    <h3>Premier Colors:</h3>
     <div class="row">
-        <div class="col-sm-3 col-lg-3">
+        <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">
                 <img src="media/images/colors/chocolate.jpg" alt="Chocolate">
                 <div class="caption">
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 col-lg-3">
+        <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">
                 <img src="media/images/colors/mahogany.jpg" alt="Mahogany">
                 <div class="caption">
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 col-lg-3">
+        <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">
                 <img src="media/images/colors/medium_sycamore.jpg" alt="Sycamore">
                 <div class="caption">

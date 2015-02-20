@@ -10,8 +10,8 @@
             <td>
                 <select id="tiers" name="os0">
                     <option value="Standard Colors">Standard Colors $1549.00 USD</option>
-                    <option value="Tier 1 Colors">Tier 1 Colors $1,629.00 USD</option>
-                    <option value="Tier 2 Colors">Tier 2 Colors $1,699.00 USD</option>
+                    <option value="Premium Colors">Premium Colors $1,629.00 USD</option>
+                    <option value="Premier Colors">Premier Colors $1,699.00 USD</option>
                 </select>
             </td>
         </tr>

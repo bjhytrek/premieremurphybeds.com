@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><?php echo $title; ?> | 336Demo.BlaineRobertson.net</title>
+    <title><?php echo $title; ?> | PremierMurhpyBeds.com</title>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/head.php'; ?>
   </head>
   <body>

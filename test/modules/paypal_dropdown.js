@@ -17,13 +17,13 @@ tiers.change(function () {
             $("#colors option[class='2']").hide();
             
             break;
-        case "Tier 1 Colors":
+        case "Premium Colors":
             $("#colors option[class='0']").hide();
             $("#colors option[class='2']").hide();
             $("#colors option[class='1']").show();
    
             break;
-        case "Tier 2 Colors":
+        case "Premier Colors":
             $("#colors option[class='0']").hide();
             $("#colors option[class='1']").hide();
             $("#colors option[class='2']").show();

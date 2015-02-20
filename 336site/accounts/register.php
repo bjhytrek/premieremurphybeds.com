@@ -1,50 +1,66 @@
-<?php session_start(); ?>
-<!DOCTYPE html>
-<html>
- <head>
-   <title><?php echo $title; ?> | 336Demo.BlaineRobertson.net</title>
-   <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/head.php'; ?>
- </head>
- <body>
-   <div id="wrapper">
-     <header role="banner">
-       <div>
-           <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'; ?>
-       </div>
-     </header>
-     <nav role="navigation">
-       <div>
-           <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/nav.php'; ?>
-       </div>
-     </nav>
-     <main role="main">
-       <div>
-         <h1>Registration</h1>
-         <?php
-         if(isset($message)){
-         echo '<p class="notice">'.$message.'</p>';
-         }?>
-         <form action="." method="post" id="regform">
-           <fieldset>
-             <label for="firstname">Firstname:</label>
-             <input type="text" name="firstname" id="firstname" required value="<?php echo $errors[0] ?>">
-             <label for="lastname">Lastname:</label>
-             <input type="text" name="lastname" id="lastname" required value="<?php echo $errors[1] ?>">
-             <label for="emailaddress">Email Address: (this will be your user name)</label>
-             <input type="email" name="emailaddress" id="emailaddress" required value="<?php echo $errors[2] ?>">
-             <label for="password">Password:</label>
-             <input type="password" name="password" id="password" required>
-             <label>&nbsp;</label>
-             <input type="submit" name="action" id="action" value="Register">
-           </fieldset>
-        </form>
-       </div>
-     </main>
-     <footer role="contentinfo">
-       <div>
-           <?php include $_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php'; ?>
-       </div>
-     </footer>
-   </div>
- </body>
-</html>
+<?php require_once("includes/session.php"); ?>
+<?php require_once("includes/db_connection.php"); ?>
+<?php require_once("includes/functions.php"); ?>
+<?php require_once("includes/validation_functions.php"); ?>
+<?php confirm_logged_in(); ?>
+
+<?php
+if (isset($_POST['submit'])) {
+  // Process the form
+  
+  // validations
+  $required_fields = array("username", "password");
+  validate_presences($required_fields);
+  
+  $fields_with_max_lengths = array("username" => 30);
+  validate_max_lengths($fields_with_max_lengths);
+  
+  if (empty($errors)) {
+    // Perform Create
+
+    $username = mysql_prep($_POST["username"]);
+    $hashed_password = password_encrypt($_POST["password"]);
+    
+    $query  = "INSERT INTO users (";
+    $query .= "  username, hashed_password";
+    $query .= ") VALUES (";
+    $query .= "  '{$username}', '{$hashed_password}'";
+    $query .= ")";
+    $result = mysqli_query($connection, $query);
+
+    if ($result) {
+      // Success
+      $_SESSION["message"] = "User created.";
+      redirect_to("index.php");
+    } else {
+      // Failure
+      $_SESSION["message"] = "User creation failed.";
+    }
+  }
+} else {
+  // This is probably a GET request
+  
+} // end: if (isset($_POST['submit']))
+
+?>
+
+<?php $layout_context = "admin"; ?>
+
+  <div id="page">
+    <?php echo message(); ?>
+    <?php echo form_errors($errors); ?>
+    
+    <h2>Create Admin</h2>
+    <form action="register.php" method="post">
+      <p>Username:
+        <input type="text" name="username" value="" />
+      </p>
+      <p>Password:
+        <input type="password" name="password" value="" />
+      </p>
+      <input type="submit" name="submit" value="Create User" />
+    </form>
+    <br />
+    <a href="manage_admins.php">Cancel</a>
+  </div>
+

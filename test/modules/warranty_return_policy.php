@@ -3,7 +3,7 @@
     <div class="col-sm-12 col-lg-12">
         <div class="bs-callout bs-callout-warning">
             <h4>FREE SHIPPING!</h4>
-            <p>We are proud to announce that we are offering FREE SHIPPING to all contiguous 48 states!</p><h5><strong>Expected delivery time: 3-4 weeks.</strong></h5>
+            <p>We are proud to announce FREE SHIPPING to all contiguous 48 states!</p><h5><strong>Expected delivery time: 3-4 weeks.</strong></h5>
         </div>
     </div>
     <div class="col-sm-6 col-lg-6">

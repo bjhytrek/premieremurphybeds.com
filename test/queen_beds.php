@@ -21,10 +21,10 @@
                      <div class="col-sm-6 col-md-6">
                     
                     <div class="well">
-                        <!--<a href="#" data-toggle="modal" data-target="#mymodal"> -->
-                        <img src="media/images/beds/slide_1.jpg" alt="">
-                        <!--</a>
-                        -->
+                        <a href="#" data-toggle="modal" data-target="#pop_up_queen">
+                        <img src="media/images/beds/slide_1.jpg" alt="Queen Murphy Bed">
+                        </a>
+                        
                            
                     </div>
                 </div>
@@ -47,7 +47,20 @@
 <h3 id="testing"></h3>
         </div>
 
-<?php include 'modules/footer.php';
-include 'modules/image_modal.php';?>
+<?php include 'modules/footer.php'?>
+        <div class="modal fade" id="pop_up_queen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Murphy Bed Queen </h4>
+      </div>
+      <div class="modal-body">
+          <img src="media/images/beds/slide_1.jpg" alt="Twin Murphy Bed.">
+      </div>
+      
+    </div>
+  </div>
+</div>
     </body>
 </html>

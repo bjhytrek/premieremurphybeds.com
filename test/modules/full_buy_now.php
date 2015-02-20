@@ -4,8 +4,8 @@
 <table>
 <tr><td><input type="hidden" name="on0" value="Available Upgrades">Available Upgrades</td></tr><tr><td><select  id="tiers"  name="os0">
 	<option value="Standard Colors">Standard Colors $1,449.00 USD</option>
-	<option value="Tier 1 Colors">Tier 1 Colors $1,529.00 USD</option>
-	<option value="Tier 2 Colors">Tier 2 Colors $1,599.00 USD</option>
+	<option value="Premium Colors">Premium Colors $1,529.00 USD</option>
+	<option value="Premier Colors">Premier Colors $1,599.00 USD</option>
 </select> </td></tr>
 <tr><td><input type="hidden" name="on1" value="Color Options">Color Options</td></tr><tr><td><select id="colors" name="os1">
                     <option class="empty" value="empty">Select a Color</option>

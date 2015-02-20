@@ -7,9 +7,9 @@ session_start();
  */
 
 $server = 'localhost';
-$dbname= 'guitar_2';
-$username = 'bjhytrek_admin';
-$password = 'Drpepper1991';
+$dbname= 'murphy_beds';
+$username = 'bjhytrek';
+$password = 'Drpepper91';
 $dsn = 'mysql:host='.$server.';dbname='.$dbname;
 
 // Now create the actual connection object and assign it to a variable

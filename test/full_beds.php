@@ -19,10 +19,9 @@
                 <div class="col-sm-6 col-md-6">
                     <!-- Carousel image slider -->
                     <div class="well">
-                        <!--<a href="#" data-toggle="modal" data-target="#mymodal"> -->
-                        <img src="media/images/beds/slide_3.jpg" alt="">
-                        <!--</a>
-                        -->
+                        <a href="#" data-toggle="modal" data-target="#pop_up_full">
+                            <img src="media/images/beds/new_full.jpg" alt="Full Murphy Bed.">
+                        </a>
                            
                     </div>
                 </div>
@@ -46,5 +45,19 @@
        
         
         <?php include 'modules/footer.php'; ?>
+         <div class="modal fade" id="pop_up_full" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Murphy Bed Twin </h4>
+      </div>
+      <div class="modal-body">
+       <img src="media/images/beds/new_full.jpg" alt="Twin Murphy Bed.">
+      </div>
+      
+    </div>
+  </div>
+</div>
     </body>
 </html>

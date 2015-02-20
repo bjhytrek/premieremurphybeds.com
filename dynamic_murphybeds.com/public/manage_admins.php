@@ -1,6 +1,6 @@
-<?php require_once("../includes/session.php"); ?>
-<?php require_once("../includes/db_connection.php"); ?>
-<?php require_once("../includes/functions.php"); ?>
+<?php require_once("includes/session.php"); ?>
+<?php require_once("includes/db_connection.php"); ?>
+<?php require_once("includes/functions.php"); ?>
 <?php confirm_logged_in(); ?>
 
 <?php
@@ -8,7 +8,7 @@
 ?>
 
 <?php $layout_context = "admin"; ?>
-<?php include("../includes/layouts/header.php"); ?>
+<?php include("includes/layouts/header.php"); ?>
 <div id="main">
   <div id="navigation">
 		<br />
@@ -34,4 +34,4 @@
     <a href="new_admin.php">Add new admin</a>
   </div>
 </div>
-<?php include("../includes/layouts/footer.php"); ?>
+<?php include("includes/layouts/footer.php"); ?>
