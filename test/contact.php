@@ -23,7 +23,7 @@ if ($_POST["submit"]) {
         $human = intval($_POST['human']);
         $from = 'Customer Email Form'; 
         $to = 'bjhytrek@gmail.com'; 
-        $subject = 'Message from Contact Form ';
+        $subject = $_POST['message'];
         
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
  
@@ -49,7 +49,7 @@ if ($_POST["submit"]) {
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     if (mail ($to, $subject, $body, $from)) {
-        $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+        $result='<div class="alert alert-success">Email Sent! We will respond quickly.</div>';
     } else {
         $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
     }
