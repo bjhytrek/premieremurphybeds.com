@@ -34,9 +34,12 @@
             
             <div class="jumbotron">
                 <h3>Twin Sized Murphy Bed</h3>
-                <p>The twin is the ultimate space saving design without sacrificing style. Perfect for kids or to maximize the space of a smaller room the twin is ultimate combination of beauty and efficiency.</p>
+                <p>The twin is the ultimate space saving design without sacrificing style. Perfect for kids or to maximize the space of a smaller room the twin is ultimate combination of beauty and efficiency.<br><small>*mattress not included*</small></p>
             </div>
-            <?php include 'modules/product_description.php'; ?>
+            <div id="content">
+                <?php include 'modules/product_description.php'; ?>
+            </div>
+            
             </div>
             
         

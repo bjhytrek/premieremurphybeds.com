@@ -12,7 +12,7 @@
 <?php include 'modules/navbar_top.php'; ?>
         <!-- Responsive Grid System.-->
 
-        <div class="container">
+        <div class="container" id="main_container">
             <!-- Carousel image slider -->
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -55,12 +55,14 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>
-        </div>
+        
 
-        <div class="container" id="main_container">
+            <div id="content">
+                
+            
             <!-- Main content-->
             <div class="jumbotron">
-                <p>Premier Murphy Beds manufactures the highest quality beds in the business with the best prices! We use only the best materials, and build our beds right here in the USA. Our current line features top-grade wood with beautiful options for any room in the home. Our space saving features create a beautifully furnished room that maximizes space and efficiency.*mattress not included*</p>
+                <p>Premier Murphy Beds manufactures the highest quality beds in the business with the best prices! We use only the best materials, and build our beds right here in the USA. Our current line features top-grade wood with beautiful options for any room in the home. Our space saving features create a beautifully furnished room that maximizes space and efficiency.<br><small>*mattress not included*</small></p>
             </div>
             <!--Queen bed-->
             <div class="row">
@@ -71,7 +73,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
                     <a href="queen_beds.php"><h3>Queen Sized Murphy Bed</h3></a>
-                    <p>Our queen murphy bed will do really funny things to your back.</p>
+                    <p>Our queen bed features the option to include one or two hutches, with shelves. When closed the room appears to have a beautifully..</p>
                 </div>
             </div>
             <hr>
@@ -85,7 +87,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
                     <a href="full_beds.php"><h3>Full Sized Murphy Bed</h3></a>
-                    <p>Our Full murphy bed will do really funny things to your back.</p>
+                    <p>With the same wood and design options available for the queen bed, the full bed maximizes space for one adult while still creating the ambiance of beauty and elegance..</p>
                 </div>
             </div>
             <hr>
@@ -98,11 +100,12 @@
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
                     <a href="twin_beds.php"><h3>Twin Sized Murphy Bed</h3></a>
-                    <p>Our Twin murphy bed will do really funny things to your back.</p>
+                    <p>The twin is the ultimate space saving design without sacrificing style. Perfect for kids or to maximize the space of a smaller room the twin is ultimate combination of beauty and efficiency.</p>
                 </div>
             </div>
     
 <?php include 'modules/warranty_return_policy.php'; ?>
+        </div>
         </div>
 
 

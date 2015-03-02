@@ -3,7 +3,7 @@
     <div class="row">
          <h2>Product description</h2> 
        <h3>Hardware Finishes:</h3> 
-       <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4">
+       <div class="col-xs-10 col-sm-5 col-md-4 col-lg-4">
            <div class="thumbnail">
                <img src="media/images/hardware/hardware_finishes.jpg" alt="Hardware Finishes: Chrome, Brushed Nickel, and Oil Rubbed Bronze.">
                <div class="caption">

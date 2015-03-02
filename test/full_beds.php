@@ -36,9 +36,12 @@
             </div>
             <div class="jumbotron">
                 <h3>Full Sized Murphy Bed</h3>
-                <p>With the same wood and design options available for the queen bed, the full bed maximizes space for one adult while still creating the ambiance of beauty and elegance. The full is perfect for any studio apartment or room utilizing multiple functions.</p>
+                <p>With the same wood and design options available for the queen bed, the full bed maximizes space for one adult while still creating the ambiance of beauty and elegance. The full is perfect for any studio apartment or room utilizing multiple functions.<br><small>*mattress not included*</small></p>
             </div>
-            <?php include 'modules/product_description.php'; ?>
+            <div id="content">
+                 <?php include 'modules/product_description.php'; ?>
+            </div>
+           
             </div>
             
         

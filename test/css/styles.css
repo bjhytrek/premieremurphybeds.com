@@ -21,7 +21,9 @@ html,body {
 	color:  #179bd7 !important;
 	
 }
+
 #main_container {
+    padding: 0px;
     margin-top: 50px;
     background-color: #F5F5F3 !important;
     margin-bottom: 1px;
@@ -29,8 +31,15 @@ html,body {
     height: auto !important;
     margin: 0 auto -140px;
 }
+#content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 img {
-    width: 100%;
+    max-width: 100%;
+}
+.bookcase {
+    width: 75px;
 }
  /*
   background: -webkit-linear-gradient(#222222, #FAFAFA); /* For Safari 5.1 to 6.0 */
@@ -47,6 +56,7 @@ img {
     color: #D1A378;
   
 }
+
 #carousel h3{
     color: #fff;
    text-shadow: 0 1px 2px rgba(0,0,0,.6);
