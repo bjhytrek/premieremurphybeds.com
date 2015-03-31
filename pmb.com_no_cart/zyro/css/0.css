@@ -1,0 +1,19 @@
+body { background: #e5eeef none repeat scroll center top; }
+.wb_sbg { background: transparent none repeat-x scroll left top; }
+body, .wb_sbg { min-width: 1003px; min-height: 921px; }
+.root { width: 1003px; height: 921px; overflow: hidden; }
+#wb_element_instance11 { left: 270px; top: 275px; min-width: 480px; width: 480px; min-height: 43px; height: 43px; display: block; z-index: 21; }
+#wb_element_instance12 { left: 0px; top: 338px; display: block; z-index: 9000; }
+#wb_element_instance13 { left: 0px; top: 358px; display: block; z-index: 9999; }
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+	body, .wb_sbg { min-width: 1003px; min-height: 921px; }
+	.root { width: 1003px; height: 921px; }
+	#wb_element_instance11 { left: 270px; top: 275px; min-width: 480px; width: 480px; min-height: 43px; height: 43px; display: block; }
+}
+
+@media (min-width: 1200px) {
+}
