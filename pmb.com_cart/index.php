@@ -74,6 +74,11 @@ case 'twin':
 
 	include 'hutch.php'; //sent to hutch.php
 	break;
+case 'addToCart':
+	#for when customer is navigating to the cart page
+	addToCart();
+	include 'cart.php'; //sent to cart.php
+	break;
 
 	case 'cart':
 	#for when customer is navigating to the cart page

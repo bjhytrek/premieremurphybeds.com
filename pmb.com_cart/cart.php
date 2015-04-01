@@ -1,4 +1,4 @@
-<?php include('_php/functions.php'); ?>
+
 
 <html>
     <head>
@@ -11,7 +11,7 @@
     <body>
         <?php $active_page
                 = 12;
-        $_SESSION['page'] = 'queen';
+        $_SESSION['page'] = 'cart';
         ?>
         <script type='text/javascript' src='modules/paypal_dropdown.js' defer="defer"></script>
 <?php include 'modules/navbar_top.php'; ?>
@@ -20,7 +20,10 @@
             <div id="content">
                 
 	
-		<?php notification(); ?>
+		<?if(isset($message)){
+			echo $message;
+		}
+		; ?>
 	
 		<h1>Premier Murphy Beds</h1>
 		<h2>PayPal Shopping Cart</h2>

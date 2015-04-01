@@ -85,7 +85,7 @@ function get_product($name)
 </form>
 					
 					<div class="price">$'.number_format($row->price, 2).'</div>
-					<a href="addToCart.php?name='.$row->name.'">Add to cart</a>
+					<a href="index.php?action=addToCart&id='.$row->id.'">Add to cart</a>
 				</div>
 			</div>
 			<script type="text/javascript">
@@ -215,15 +215,15 @@ function addToCart()
 	//Create the MYSQL db connection
 	$db = new mysqli(DB_HOST, DB_USER, DB_PASS, T4_DB_NAME);
 
-	//Check if the NAME variable is set
-	if(isset($_GET['NAME']))
+	//Check if the ID variable is set
+	if(isset($_GET['id']))
 	{
 	
 		//Escape the string from the URL
-		$NAME = $db->real_escape_string($_GET['NAME']);
+		$ID = $db->real_escape_string($_GET['id']);
 	
 		//Check if the ID passed exists within the database
-		$result = $db->query('SELECT * FROM products WHERE NAME = "'.$NAME.'" LIMIT 1');
+		$result = $db->query('SELECT * FROM products WHERE ID = "'.$ID.'" LIMIT 1');
 		
 		//If the product ID exists in the database then insert it to the cart
 		if($result->num_rows > 0)
@@ -237,7 +237,7 @@ function addToCart()
 				{
 					
 					//The cart exists so just add it to the cart
-					insertToCart($ID, $row->name, $row->price);
+					insertToCart($name, $row->id, $row->price);
 				
 				}
 				else
@@ -247,7 +247,7 @@ function addToCart()
 					createCart();
 					
 					//The cart is now created so add the product to the cart
-					insertToCart($ID, $row->name, $row->price);
+					insertToCart($name, $row->id, $row->price);
 				
 				}
 			
@@ -258,15 +258,15 @@ function addToCart()
 		{
 			
 			//No products were found in the database so notify the user, redirect him and stop the code from continuing
-			notify('Sorry but there is no product with that ID.', 0);
-			header('Location: tutorial-4.php');
+			$message = 'Sorry but there is no product with that ID.';
+			header('Location: index.php?action=cart');
 			break;
 		
 		}
 	
 		//The product was successfully added so set the notification and redirect to the cart page
 		notify('Product added to the cart.', 1);
-		header('Location: cart.php');
+		header('Location: index.php?action=cart');
 	
 	}
 	else
@@ -274,7 +274,7 @@ function addToCart()
 		
 		//No Product with that ID redirect and display message
 		notify('Sorry but there is no product with that ID.', 0);
-		header('Location: tutorial-4.php');
+		header('Location: index.php?action=cart');
 	
 	}
 
