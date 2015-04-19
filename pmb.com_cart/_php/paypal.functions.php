@@ -85,7 +85,7 @@ function get_product($name)
 </form>
 					
 					<div class="price">$'.number_format($row->price, 2).'</div>
-					<a href="index.php?action=addToCart&id='.$row->id.'">Add to cart</a>
+					<a href="index.php?action=addToCart&ID='.$row->id.'">Add to cart</a>
 				</div>
 			</div>
 			<script type="text/javascript">
@@ -216,11 +216,11 @@ function addToCart()
 	$db = new mysqli(DB_HOST, DB_USER, DB_PASS, T4_DB_NAME);
 
 	//Check if the ID variable is set
-	if(isset($_GET['id']))
+	if(isset($_GET['ID']))
 	{
 	
 		//Escape the string from the URL
-		$ID = $db->real_escape_string($_GET['id']);
+		$ID = $db->real_escape_string($_GET['ID']);
 	
 		//Check if the ID passed exists within the database
 		$result = $db->query('SELECT * FROM products WHERE ID = "'.$ID.'" LIMIT 1');
