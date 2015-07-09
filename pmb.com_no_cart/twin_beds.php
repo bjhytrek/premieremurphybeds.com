@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Twin Murphy Bed | Premieremurphybeds.com</title>
+        <title>Standard Murphy Bed | Premieremurphybeds.com</title>
             <?php include 'modules/header.php';?>
     </head>
     <body>
@@ -24,20 +24,34 @@
                 </div>
                 <div class="col-sm-6 col-md-6">
                     <div class="page-header">
-                    <h1>Twin Sized Murphy Bed</h1>
+                    <h1>Standard Murphy Bed</h1>
                     </div>
-                    <h3>Customize Your Bed</h3>
-                    <?php include 'modules/twin_buy_now.php'; ?>
+                    <p>The twin is the ultimate space saving design without sacrificing style. Perfect for kids or to maximize the space of a smaller room the twin is ultimate combination of beauty and efficiency.<br><small>*mattress not included*</small></p>
+                    
 
                 </div>
             </div>
             
-            <div class="jumbotron">
-                <h3>Twin Sized Murphy Bed</h3>
-                <p>The twin is the ultimate space saving design without sacrificing style. Perfect for kids or to maximize the space of a smaller room the twin is ultimate combination of beauty and efficiency.<br><small>*mattress not included*</small></p>
-            </div>
-            <div id="content">
+           <div id="content">
+            <?php include 'modules/square_item_premier.php'; ?>
+                
+        
+            
                 <?php include 'modules/product_description.php'; ?>
+                <h3>Standard Colors:</h3>
+    <div class="row">
+        
+        <div class="col-xs-6 col-sm-3 col-lg-2">
+            <div class="thumbnail">
+                <img src="media/images/colors/white.jpg" alt="White">
+                <div class="caption">
+                    <h4>White</h4>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
             </div>
             
             </div>

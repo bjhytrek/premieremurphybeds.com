@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Premieremurphybeds.com</title>
         <?php include 'modules/header.php'; ?>
+    </head>
     <body>
         <?php $active_page
                 = 0;
@@ -67,48 +68,22 @@
                 
             
             <!-- Main content-->
-            <div class="jumbotron">
+            <h1>Premier Murphy Beds</h1>
                 <p>Premier Murphy Beds manufactures the highest quality beds in the business with the best prices! We use only the best materials, and build our beds right here in the USA. Our current line features top-grade wood with beautiful options for any room in the home. Our space saving features create a beautifully furnished room that maximizes space and efficiency.<br><small>*mattress not included*</small></p>
-            </div>
+            
             <!--Queen bed-->
             <div class="row">
-                <div class="col-md-3 col-xs-4 col-lg-3 col-sm-3">
+                <div class="col-md-6 col-xs-6 col-lg-4 col-sm-6">
                     
-                        <a href="queen_beds.php"><img src="media/images/beds/new_queen.jpg" alt="Queen Sized Murhpy Bed"></a>   
-                
+                    <a href="products.php"><img src="media/images/beds/new_queen.jpg" alt="Products Page"></a>   
+                        
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
-                    <a href="queen_beds.php"><h3>Queen Sized Murphy Bed</h3></a>
-                    <p>Our queen murphy bed combines the ultimate space-saving features that allow maximum room utilization, sleep capacity, and style..</p>
+                    <a href="products.php"><h3>View Products</h3></a>
+                    <p>Our murphy beds combined the ultimate space-saving features that allow maximum room utilization, sleep capacity, and style..</p>
                 </div>
             </div>
             <hr>
-            
-            <!--Full bed-->
-            <div class="row">
-                <div class="col-md-3 col-xs-4 col-lg-3 col-sm-3">
-                    
-                        <a href="full_beds.php"><img src="media/images/beds/new_full.jpg" alt="Full Sized Murhpy Bed"></a>   
-                
-                </div>
-                <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
-                    <a href="full_beds.php"><h3>Full Sized Murphy Bed</h3></a>
-                    <p>With the same wood and design options available for the queen bed, the full bed maximizes space for one adult while still creating the ambiance of beauty and elegance..</p>
-                </div>
-            </div>
-            <hr>
-            <!--Twin Bed -->
-            <div class="row">
-                <div class="col-md-3 col-xs-4 col-lg-3 col-sm-3">
-                    
-                        <a href="twin_beds.php"><img src="media/images/beds/new_twin.jpg" alt="Twin Sized Murhpy Bed"></a>   
-                
-                </div>
-                <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
-                    <a href="twin_beds.php"><h3>Twin Sized Murphy Bed</h3></a>
-                    <p>The twin is the ultimate space saving design without sacrificing style. Perfect for kids or to maximize the space of a smaller room the twin is ultimate combination of beauty and efficiency.</p>
-                </div>
-            </div>
     
 <?php include 'modules/warranty_return_policy.php'; ?>
         </div>

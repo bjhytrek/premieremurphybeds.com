@@ -1,0 +1,2 @@
+<a href='https://mkt.com/premiermurphybeds' class='sq-embed-menu' data-menu-item-images='large' data-menu-accent-color='04a9dc' data-menu-template='column' data-menu-border='show' data-menu-item-descriptions='show' >Order Online</a>
+<script src="https://cdn.sq-api.com/market/embed.js" charset="utf-8"></script>
