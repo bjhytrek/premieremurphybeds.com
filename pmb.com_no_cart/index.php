@@ -75,11 +75,11 @@
             <div class="row">
                 <div class="col-md-6 col-xs-6 col-lg-4 col-sm-6">
                     
-                    <a href="products.php"><img src="media/images/beds/new_queen.jpg" alt="Products Page"></a>   
+                    <a href="murphy-beds.php"><img src="media/images/beds/new_queen.jpg" alt="Murphy Beds Page"></a>   
                         
                 </div>
                 <div class="col-lg-6 col-sm-6 col-xs-6 col-md-6">
-                    <a href="products.php"><h3>View Products</h3></a>
+                    <a href="murphy-beds.php"><h3>View Products</h3></a>
                     <p>Our murphy beds combined the ultimate space-saving features that allow maximum room utilization, sleep capacity, and style..</p>
                 </div>
             </div>

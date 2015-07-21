@@ -8,6 +8,7 @@
 		
     </head>
     <body>
+       
         <?php
         $active_page
                 = 5;
@@ -67,7 +68,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 <h3><a onclick="javascript:window.open('mailto:sales@premiermurphybeds.com?', 'mail');
                         event.preventDefault()" href="mailto:sales@premiermurphybeds.com?">sales@premiermurphybeds.com</a></h3>
             </div>
-            
+            <div class="content">
             <h3 class="page-header">Email Us</h3>
             <form class="form-horizontal" role="form" method="post" action="contact.php">
     <div class="form-group">
@@ -110,9 +111,8 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     </div>
 </form> 
         </div>
-        
+        </div>
 <?php include 'modules/footer.php';
-include 'modules/image_modal.php';
 ?>
         
     </body>

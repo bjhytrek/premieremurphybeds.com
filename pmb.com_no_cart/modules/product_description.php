@@ -1,25 +1,41 @@
-<h1>Murphy Bed Side Hutches</h1>
-               
-                 
+<?php 
+if ($active_page == 2){
+    echo "<div class=\"page-header\">
+    <h1>Murphy Bed Side Hutches</h1>
+    <h3>Comming soon!</h3>           
+    <p>Contact us for more information, or to make a special request.</p> 
+    </div>";
+}
+else {
+   echo "<h2>Murphy Bed Side Hutches</h2>
+   <h3>Comming soon!</h3>           
+    <p>Contact us for more information, or to make a special request.</p> ";
+}
+    ?>
+                
                <div class="row">
                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                       <h4>Bookcase</h4>
                        <img src="media/images/hutch/bookcase_outline.jpg" alt="Bookcase outline.">
-                   <h3>Bookcase</h3>
+                   
                     
                    </div>
                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                       <h4>Three Drawer Bookcase</h4>
                        <img src="media/images/hutch/three_drawer_bookcase.jpg" alt="Three Drawer Bookcase outline.">
-                   <h3>Three Drawer Bookcase</h3>
+                   
                     
                    </div>
                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                       <h4>Door and Drawer Nightstand</h4>
                        <img src="media/images/hutch/drawer_nightstand_outline.jpg" alt="Door and Drawer Nightstand.">
-                   <h3>Door and Drawer Nightstand</h3>
+                   
                     
                    </div>
                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                       <h4>Three Drawer Nightstand</h4>
                        <img src="media/images/hutch/three_drawer_nightstand_outline.jpg" alt="Three Drawer Nightstand outline.">
-                   <h3>Three Drawer Nightstand</h3>
+                   
                     
                    </div>
                </div>
@@ -29,7 +45,7 @@
             
               <h2>Product description</h2>   
    <p>Crafted from the same wood selections you choose for your bed, adding one of our hutches to one, or both, sides of your murphy bed completes the ambiance of any room while giving you the space and storage to create the perfectly designed setting. Choose from two designs in a nightstand or hutch to complete the ensemble.</p>
-   <h3>Hardware Finishes:</h3>  
+   <h4>Hardware Finishes:</h4>  
    <div class="row">
     
        <div class="col-xs-10 col-sm-5 col-md-4 col-lg-4">
@@ -45,7 +61,7 @@
        </div>
     </div>
     
-    <h3>Standard Colors:</h3>
+    <h4>Standard Colors:</h4>
     <div class="row">
         
         <div class="col-xs-6 col-sm-3 col-lg-2">
@@ -59,7 +75,7 @@
         </div>
         
     </div>
-    <h3>Premium Colors:</h3>
+    <h4>Premium Colors:</h4>
     <div class="row">
         <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">
@@ -81,7 +97,7 @@
         </div>
         
     </div>
-    <h3>Premier Colors:</h3>
+    <h4>Premier Colors:</h4>
     <div class="row">
         <div class="col-xs-6 col-sm-3 col-lg-2">
             <div class="thumbnail">

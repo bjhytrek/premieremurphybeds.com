@@ -13,8 +13,11 @@ html,body {
     background-image :url(../media/images/dark_wood.jpg);
    
 }
+
 #nav_title {
 	color: #35C0FF !important;
+    max-width: 15rem;
+    padding-top: .5rem;
 	
 }
 #nav_title:hover {
@@ -64,10 +67,17 @@ img {
 h3 {
     color: #fea273;
     //text-shadow: 0 2px 1px rgba(0,0,0,.6);
+    
+}
+.content >h3 {
+ padding-left: 10px;   
+}
+h2 {
+   color: #35C0FF; 
 }
 
 a:hover {
-    color: #393BFD;
+    color: #35C0FF;
 }
 #thumbail {
   max-width:250px ;  
@@ -92,6 +102,7 @@ color: #E6111F;
   margin: 20px 0;
   padding: 15px 30px 15px 15px;
   border-left: 5px solid #eee;
+    min-height: 15rem;
 }
 .bs-callout h4 {
   margin-top: 0;
@@ -136,3 +147,4 @@ color: #3A87AD;
     margin-top: 20px;
     margin-bottom: 0;
 }
+@import
